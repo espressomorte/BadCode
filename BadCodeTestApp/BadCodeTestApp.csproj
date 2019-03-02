@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commandore.cs" />
+    <Compile Include="Commands\CsSearchCommand.cs" />
+    <Compile Include="Commands\CreateTxtCommand.cs" />
+    <Compile Include="ICommandStrategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Commands\SearchCommand.cs" />
+    <Compile Include="Commands\RemoveTxtCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
