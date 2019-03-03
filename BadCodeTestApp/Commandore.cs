@@ -7,6 +7,7 @@ namespace BadCodeTestApp
 {
     internal class Commandore
     {
+        ICommandStrategy strategy;
         private static Dictionary<string, ICommandStrategy> strategies = new Dictionary<string, ICommandStrategy>();
 
     static Commandore()
@@ -19,8 +20,16 @@ namespace BadCodeTestApp
 
         public ICommandStrategy getStrategy(string command)
     {
-            return strategies[command];
-    }
+            try
+            {
+                strategy = strategies[command];
+            }
+            catch (KeyNotFoundException)
+            {
+                Console.WriteLine("Error: Given command is not supported.");
+            }
+            return strategy;
+        }
 
 }
 }

@@ -10,3 +10,6 @@ C:\espresso\BadCodeTestApp\BadCodeTestApp\obj\Debug\BadCodeTestApp.pdb
 C:\espresso\BadCodeTestApp\BadCodeTestApp\bin\Debug\BadCodeTestApp.exe
 C:\espresso\BadCodeTestApp\BadCodeTestApp\bin\Debug\BadCodeTestApp.pdb
 C:\espresso\BadCodeTestApp\BadCodeTestApp\obj\Debug\BadCodeTestApp.csprojResolveAssemblyReference.cache
+C:\espresso\BadCodeTestApp\BadCodeTestApp\bin\Debug\log4net.config
+C:\espresso\BadCodeTestApp\BadCodeTestApp\bin\Debug\log4net.dll
+C:\espresso\BadCodeTestApp\BadCodeTestApp\bin\Debug\log4net.xml

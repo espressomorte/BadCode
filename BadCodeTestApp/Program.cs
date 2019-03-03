@@ -12,6 +12,7 @@ namespace BadCodeTestApp
 
         static void Main(string[] args)
         {
+            Logger.Log.Info("Programm started");
             string command = args[0];
             string workingDirectory = args[1];
             Commandore strategy = new Commandore();
